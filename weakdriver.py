@@ -28,7 +28,7 @@ import struct
 
 def load_prefixes():
     d = { }
-    f = open("jt65prefixes.dat")
+    f = open("home/ki5uxw/Desktop/weakmon-master/jt65prefixes.dat")
     for ln in f:
         ln = re.sub(r'\t', ' ', ln)
         ln = re.sub(r'  *', ' ', ln)
